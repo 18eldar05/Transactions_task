@@ -7,12 +7,6 @@ class AccountInfoSerializer(serializers.ModelSerializer):
         model = AccountInfo
         fields = '__all__'
 
-    def create(self, validated_data):
-        return AccountInfo.objects.create(
-            full_name=validated_data["full_name"],
-            address=validated_data["address"],
-        )
-
 
 class TransactionsSerializer(serializers.ModelSerializer):
     class Meta:

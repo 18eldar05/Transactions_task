@@ -5,8 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3f74389-6035-4ec3-afa7-123caba61a9c" name="Changes" comment="First">
+      <change afterPath="$PROJECT_DIR$/account/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/migrations/0002_alter_accountinfo_account_id.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/migrations/0003_alter_accountinfo_account_id.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/migrations/0004_alter_accountinfo_account_id.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/migrations/0005_alter_accountinfo_account_id.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coolsite/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coolsite/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coolsite/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coolsite/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coolsite/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_ubuntu/bin/Activate.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_ubuntu/bin/activate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_ubuntu/bin/activate.csh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_ubuntu/bin/activate.fish" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_ubuntu/bin/django-admin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_ubuntu/bin/dotenv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_ubuntu/bin/pip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_ubuntu/bin/pip3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_ubuntu/bin/pip3.10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_ubuntu/bin/sqlformat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_ubuntu/pyvenv.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/serializers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +100,12 @@
       <workItem from="1708937208260" duration="3369000" />
       <workItem from="1708958749108" duration="914000" />
       <workItem from="1709022655869" duration="2634000" />
+      <workItem from="1709028221605" duration="1881000" />
+      <workItem from="1709109284072" duration="90000" />
+      <workItem from="1709109386175" duration="6222000" />
+      <workItem from="1709126494109" duration="5807000" />
+      <workItem from="1709195155646" duration="8715000" />
+      <workItem from="1709209644042" duration="3087000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1709024520572</created>
@@ -77,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709024520572</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First">
+      <option name="closed" value="true" />
+      <created>1709025750800</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709025750800</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,5 +154,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First" />
     <option name="LAST_COMMIT_MESSAGE" value="First" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/Programs/Python/Python39/Lib/site-packages/rest_framework/generics.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
