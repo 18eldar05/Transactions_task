@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "bank"
+version = "0.1.0"
+description = ""
+authors = ["18eldar05 <eldareldarosss@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dotenv = "^1.0.1"
+sqlparse = "^0.4.4"
+typing-extensions = "^4.10.0"
+pytz = "^2024.1"
+psycopg2-binary = "^2.9.9"
+psycopg = "^3.1.18"
+django = "^5.0.3"
+djangorestframework = "^3.14.0"
+asgiref = "^3.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
