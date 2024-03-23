@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3f74389-6035-4ec3-afa7-123caba61a9c" name="Changes" comment="First">
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Bank.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Bank.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d3f74389-6035-4ec3-afa7-123caba61a9c" name="Changes" comment="a commit">
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv_ubuntu/bin/django-admin" beforeDir="false" afterPath="$PROJECT_DIR$/venv_ubuntu/bin/django-admin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/coolsite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/coolsite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,20 +36,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/User/PycharmProjects/Bank",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/PycharmProjects/Bank/db.sqlite3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\PycharmProjects\Bank" />
@@ -82,7 +87,22 @@
       <workItem from="1709714111388" duration="1220000" />
       <workItem from="1709715355946" duration="1356000" />
       <workItem from="1709716736244" duration="251000" />
-      <workItem from="1709717000898" duration="2475000" />
+      <workItem from="1709717000898" duration="3285000" />
+      <workItem from="1709724997602" duration="790000" />
+      <workItem from="1709801443985" duration="1676000" />
+      <workItem from="1710145731910" duration="5123000" />
+      <workItem from="1710248990970" duration="2424000" />
+      <workItem from="1710510680148" duration="3496000" />
+      <workItem from="1710758809289" duration="8004000" />
+      <workItem from="1710779949048" duration="773000" />
+      <workItem from="1710850130932" duration="6299000" />
+      <workItem from="1710922731860" duration="1786000" />
+      <workItem from="1710936317903" duration="5790000" />
+      <workItem from="1710945035253" duration="2173000" />
+      <workItem from="1711009608810" duration="10574000" />
+      <workItem from="1711024549921" duration="6530000" />
+      <workItem from="1711095328678" duration="8437000" />
+      <workItem from="1711201909636" duration="2316000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1709024520572</created>
@@ -106,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709213233116</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="a commit">
+      <created>1709722683534</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709722683535</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,7 +164,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First" />
-    <option name="LAST_COMMIT_MESSAGE" value="First" />
+    <MESSAGE value="a commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="a commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

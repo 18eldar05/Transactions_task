@@ -1,2 +1,5 @@
-up: ;  poetry install ; docker compose up
-run: ; python3 manage.py runserver
+up:
+#	poetry install
+	docker compose up -d
+	python3 manage.py migrate
+	gunicorn --reload -b coolsite.wsgi

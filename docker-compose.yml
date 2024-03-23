@@ -1,10 +1,40 @@
 version: "3.9"
 services:
-  postgres:
+  web:
+    build:
+      context: .
+    command: >
+      sh -c "gunicorn --reload -b 0.0.0.0:8000 coolsite.wsgi"
+    ports:
+      - '8000:8000'
+    depends_on:
+      - migrator
+
+  migrator:
+    build:
+      context: .
+    command: python manage.py migrate --noinput
+    depends_on:
+      pgdb:
+        condition: service_healthy
+
+  pgdb:
     image: postgres
     environment:
-      POSTGRES_DB: "postgres"
-      POSTGRES_USER: "postgres"
-      POSTGRES_PASSWORD: "postgres"
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    container_name: pgdb
+    volumes:
+      - pgdbdata:/var/lib/postgresql/data/
     ports:
       - "5433:5432"
+    command: [ "postgres", "-c", "log_statement=all", "-c", "log_min_messages=INFO", "-c", "log_min_duration_statement=0" ]
+    healthcheck:
+        test: [ 'CMD-SHELL', 'psql -U $${POSTGRES_USER} -c "select 1" -d $${POSTGRES_DB}' ]
+        interval: 10s
+        timeout: 3s
+        retries: 5
+
+volumes:
+  pgdbdata: {}

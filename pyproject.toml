@@ -16,6 +16,8 @@ psycopg = "^3.1.18"
 django = "^5.0.3"
 djangorestframework = "^3.14.0"
 asgiref = "^3.7.2"
+gunicorn = "^21.2.0"
+djangorestframework-simplejwt = "^5.3.1"
 
 
 [build-system]
